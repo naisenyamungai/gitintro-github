@@ -1,2 +1,3 @@
 # gitintro-github
-Introduction to git
+Introduction to git.
+This is for tutorial purpose.
