@@ -1,0 +1,64 @@
+
+BELOW ARE GIT COMMANDS
+
+git status ~checks what is on git
+
+git add
+git add *.* / git add . /git add -A   ~ These adds more than 1 files to git
+
+
+git commit -m “added abcd”
+Git commit -a -m “committed more than 1 files”  ~ This commits more than 1 file
+
+Git remote add origin “paste the link copied from central repository”
+
+git push -u origin master   ~ pushes changes to remote repository on GitHub
+
+git pull origin master  ~ Fetches files from central repository to local repository(PC)
+
+
+*****************************************************************************************
+TO CORRECT GIT ERROR: FAILED TO PUSH SOME REFS TO …AFTER GIT PUSH -U ORIGIN MASTER
+Use below commands:
+
+git pull —rebase origin master
+git push origin master
+	then…..
+git push -u origin master
+*****************************************************************************************
+
+
+CREATING REPOSITORIES
+
+1. Create central repository on on github
+ -create new repository
+ -give it a name
+ -fill in description
+ -check public
+ -check initialize this repository
+
+2.Create local repository in a local machine
+ -check whether git is installed
+	git —version
+
+>>Add your GitHub email and Username to git
+	git config —global user.email “your email”
+	git config —global user.name “your username”
+
+3. Add File/Folders to git for tracking
+>>Mac shortcuts to get and copy file/folder path ~ command i “where” , command c
+>>Then use the command below to change directory based on the file path copied above
+	cd /users/John/Document/Naisenya/GIT
+
+4. Initialize an empty git repository on local machine
+	git init
+
+5. check what is on git
+	git status
+
+6. Add remote repository
+	git remote add origin “paste link from central repository”
+
+7. Fetch files from central repository to local repository
+	git pul origin master
+
