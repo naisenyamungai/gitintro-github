@@ -12,3 +12,10 @@ Branch is a parallel environment where you can work without affecting the conten
 2.To switch from master to the newly created branch
 	git checkout firstbranch(name of branch)
 
+3. List all files in the branch
+	ls
+
+4.To go back to master branch
+	git checkout master
+
+
