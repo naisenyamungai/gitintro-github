@@ -1,0 +1,14 @@
+This is the first text file in first branch
+****************************************************************************************
+Origin is where the reposititory started, the master branch
+Branch is a parallel environment where you can work without affecting the contents of the origin
+2 types of branches: Local branches, Remote Tracking Branches
+
+***************************************************************************************
+
+1. Creating a branch
+	git branch firstbranch(or whichever name you want)
+
+2.To switch from master to the newly created branch
+	git checkout firstbranch(name of branch)
+
