@@ -28,7 +28,7 @@ git push -u origin master
 *****************************************************************************************
 
 
-CREATING REPOSITORIES
+	CREATING REPOSITORIES
 
 1. Create central repository on on github
  -create new repository
@@ -61,4 +61,18 @@ CREATING REPOSITORIES
 
 7. Fetch files from central repository to local repository
 	git pul origin master
+
+
+*********************************************************************************************
+
+	OTHER HELPFUL COMMANDS
+
+1.To show all commits
+	git log
+
+2. To exit the git log output ~ type  
+	q
+
+3. To ask for help ~ type
+	h
 
