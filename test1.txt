@@ -1,1 +1,3 @@
 Change 1
+
+Should I try and use text edit next time to create a new file or should I just use touch test1.txt?
