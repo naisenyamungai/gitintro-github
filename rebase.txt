@@ -1,4 +1,0 @@
-	REBASING
-Rebasing is a way of combining the work between different branches in a linear sequence
-
-*****************************************************************************************
